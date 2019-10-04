@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+logging:
+  level:
+    root: INFO
+
+graphql:
+  servlet:
+    mapping: /graphql
+    enabled: true
+
+cache:
+  expiryInSeconds: 15
+  maxCacheSize: 5
